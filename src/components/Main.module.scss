@@ -1,0 +1,110 @@
+.title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #3f3f3f;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+.sortButtons {
+    display: flex;
+    border-radius: 4px;
+    width: 342px;
+    height: 38px;
+    background: #e0e0e0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+button {
+    width: 112px;
+    height: 32px;
+    border: #e0e0e0 1 solid;
+    background: lightgray;
+    cursor: pointer;
+    transition: 400ms;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #3f3f3f;
+}
+
+.active {
+    border-radius: 4px;
+    background: #fff;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+    &__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+    padding: 10px;
+    width: 585px;
+    height: 92px;
+    background: #fff;
+    padding: 10px;
+    &_left{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        &_title{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 120%;
+            color: #000;
+        }
+        &_stars{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 120%;
+            color: #000;
+        }
+        &_data{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 120%;
+            color: #000;
+        }
+    }
+    &_right{
+        display: flex;
+        align-items: center;
+        &_link{
+            font-family: var(--font-family);
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 120%;
+            color: #fff;
+            border-radius: 6px;
+            width: 100px;
+            height: 35px;
+            background: #3f3f3f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    }
+}
+}
