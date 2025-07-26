@@ -1,9 +1,0 @@
-$OpenSans:('Regular', 400),('Medium',500),('Bold',700);
-
-@each $name, $weight in $OpenSans {
-    @font-face {
-        font-family: 'OpenSans';
-        src: url('/public/fonts/OpenSans-#{$name}.ttf');
-        font-weight: $weight;
-    }
-}
